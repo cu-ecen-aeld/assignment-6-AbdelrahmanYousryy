@@ -7,7 +7,7 @@ inherit update-rc.d
 INITSCRIPT_PACKAGES = "${PN}"
 INITSCRIPT_NAME:${PN} = "aesdsocket-start-stop.sh"
 # about how to setup ssh-agent for passwordless access
-SRC_URI = "git@github.com:cu-ecen-aeld/assignments-3-and-later-AbdelrahmanYousryy.git"
+SRC_URI = "git@github.com:cu-ecen-aeld/assignments-3-and-later-AbdelrahmanYousryy.git;protocol=ssh;branch=assignment-6"
 
 PV = "1.0+git${SRCPV}"
 # TODO: set to reference a specific commit hash in your assignment repo
